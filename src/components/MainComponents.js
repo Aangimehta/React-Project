@@ -6,6 +6,7 @@ import SignUp from './SignUp';
 import ForgetPassword from './ForgetPassword';
 import Dashboard from './Dashboard';
 import Error from './404';
+import FormBuilder from './FormGenerator';
 import { ProtectedRoute } from './ProtectedRoute';
 
 class Main extends Component {
@@ -15,6 +16,7 @@ class Main extends Component {
                 <Switch>
                     <Route exact path='/' component={() => <Home />}></Route>
                     <Route exact path='/home' component={() => <Home />}></Route>
+                    <Route exact path='/formbuilder' component={() => <FormBuilder />}></Route>
                     <Route exact path='/signin' component={() => <SignIn />} ></Route>
                     <Route exact path='/signup' component={() => <SignUp />} ></Route>
                     <Route exact path='/forgetpassword' component={() => <ForgetPassword />} ></Route>

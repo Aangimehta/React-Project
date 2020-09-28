@@ -23,3 +23,6 @@ textarea {
 li {
   margin-right: 5px;
 }
+nav {
+  height: 100px !important;
+}

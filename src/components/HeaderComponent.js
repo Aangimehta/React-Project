@@ -105,6 +105,9 @@ class HomeHeader extends Component {
                             <Link style={{color:"white"}} to="/">Home</Link>
                         </NavItem>
                         <NavItem >
+                            <Link style={{color:"white"}} to="/formbuilder">Form Builder</Link>
+                        </NavItem>
+                        <NavItem >
                             <Link style={{color:"white"}} to="/dashboard">Dashboard</Link>
                         </NavItem>
                     </Nav>
@@ -117,6 +120,9 @@ class HomeHeader extends Component {
                     <Nav className="mr-auto" navbar>
                         <NavItem >
                         <Link style={{color:"white"}} to="/">Home</Link>
+                        </NavItem>
+                        <NavItem >
+                            <Link style={{color:"white"}} to="/formbuilder">Form Builder</Link>
                         </NavItem>
                     </Nav>
                     {/* <NavbarText><Link to="/login">Login</Link></NavbarText> */}
